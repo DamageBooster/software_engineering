@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" stylesheets="@../Styles/mainStyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainMenuController">
+   <children>
+      <Label alignment="CENTER" layoutX="109.0" layoutY="48.0" stylesheets="@../Styles/mainStyle.css" text="Disaster Response System" textAlignment="CENTER" textFill="#a92d2d">
+         <font>
+            <Font name="Arial Black" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="127.0" layoutY="131.0" mnemonicParsing="false" onAction="#mainReport" prefHeight="93.0" prefWidth="134.0" stylesheets="@../Styles/mainStyle.css" text="Report Disaster" />
+      <Button layoutX="306.0" layoutY="131.0" mnemonicParsing="false" onAction="#viewDisaster" prefHeight="93.0" prefWidth="134.0" stylesheets="@../Styles/mainStyle.css" text="View Disaster" />
+      <Button layoutX="127.0" layoutY="237.0" mnemonicParsing="false" onAction="#login" prefHeight="93.0" prefWidth="134.0" stylesheets="@../Styles/mainStyle.css" text="Login" />
+      <Button layoutX="306.0" layoutY="236.0" mnemonicParsing="false" onAction="#RegistrationButton" prefHeight="94.0" prefWidth="134.0" stylesheets="@../Styles/mainStyle.css" text="Registration" />
+   </children>
+</AnchorPane>
